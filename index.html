@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="styles/index.css">
 
@@ -11,15 +14,20 @@
   </head>
   <body>
     <header>
-      <nav>
-        <img src="assets/logo-dark.svg">
-        <a href="#">Get Started</a>
+      <nav class="nav">
+        <img src="assets/logo-dark.svg" class="nav__logo-dark" alt="Skilled logo">
+        <a href="#" class="nav__btn--dark">Get Started</a>
       </nav>
-      <h1>Maximize skill, minimize budget</h1>
-      <p>Our modern courses across a range of in-demand skills will give you the 
+      <div class="header__container">
+        <h1>Maximize skill, minimize budget</h1>
+        <p class="body__text body__text--bold">Our modern courses across a range of in-demand skills will give you the 
         knowledge you need to live the life you want.</p>
-      <a href="#">Get Started</a>
-      <img src="assets/image-hero-mobile.png">
+        <a href="#" class="nav__btn--pink-gradient">Get Started</a>
+      </div>
+      <img class="nav__hero-img"
+        src="assets/image-hero-mobile.webp" 
+        alt="A dark-haired woman holding a cup and blowing at it on a pink background with two info bubbles displaying 
+        amount of members at 29k and 1,451 course hours">
     </header>
 
     <main>
@@ -74,6 +82,5 @@
       <img src="assets/logo-light.svg">
       <a href="#">Get Started</a>
     </footer>
-
   </body>
 </html>
