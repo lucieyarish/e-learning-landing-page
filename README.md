@@ -1,2 +1,2 @@
-# e-learning-landing-page
-📚 Skilled e-learning landing page
+# Skilled: E-Learning Landing Page
+📚 Skilled: e-learning landing page
