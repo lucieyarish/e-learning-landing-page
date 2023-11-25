@@ -26,6 +26,7 @@ body {
     --color-light-ping: rgb(255, 167, 195);
     --color-white: rgb(255, 255, 255);
     /* Gradients */
+    --gradient-white-grey: linear-gradient(rgb(255, 255, 255), rgb(240, 241, 255));
     --gradient-orange-pink: linear-gradient(rgb(240, 42, 166), rgb(255, 111, 72));
     --gradient-blue-pink: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
     /* Radius */
@@ -36,7 +37,7 @@ body {
 }
 
 body {
-    background: var(--color-white);
+    background: var(--gradient-white-grey);
     font-family: var(--font-primary);
 }
 
@@ -82,7 +83,6 @@ h1 {
 .nav__hero-img {
     width: 100%;
     height: 100%;
-    /* margin: 0; */
 }
 
 /* --- LINKS & BUTTONS --- */
@@ -107,5 +107,3 @@ h1 {
     padding: 1.1em 2.5em;
     margin: 1.5em 0;
 }
-
-
