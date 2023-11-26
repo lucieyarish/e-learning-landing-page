@@ -133,9 +133,9 @@ a {
 }
 
 /* --- LOGOS & IMAGES --- */
-.logo-dark {
+.logo-dark,
+.logo-light {
     width: 89px;
-    /* height: 35px; */
 }
 
 .hero-img {
@@ -148,10 +148,12 @@ a {
 }
 
 /* --- LINKS & BUTTONS --- */
-.btn--dark,
-.btn--pink-gradient {
-    color: var(--color-white);
-    font-size: 1rem;
+.btn--pink-gradient,
+.btn--blue-gradient {
+    display: inline-block;
+    border-radius: var(--radius-31);
+    padding: 1.1em 2.5em;
+    margin: 1.5em 0;
 }
 
 .btn--dark {
@@ -163,12 +165,21 @@ a {
 
 .btn--pink-gradient {
     background: var(--gradient-orange-pink);
-    display: inline-block;
-    border-radius: var(--radius-31);
-    padding: 1.1em 2.5em;
-    margin: 1.5em 0;
+}
+
+.btn--blue-gradient {
+    background: var(--gradient-blue-pink);
 }
 
 .card__link {
     font-size: 1.125em;
+}
+
+/* --- FOOTER --- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-dark);
+    padding: 1.25em 1em;
 }
