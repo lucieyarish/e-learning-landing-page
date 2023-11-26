@@ -46,28 +46,53 @@ main {
     margin: 0 1em;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* --- TYPOGRAPHY --- */
-h1 {
+.title--1 {
     font-weight: var(--font-weight-bold-extra);
     font-size: 2.5rem;
     margin: 0.9em 0;
 }
 
+.title--2 {
+    font-size: 1.5rem;
+}
+
+.title--3 {
+    font-size: 1.25rem;
+}
+
+.text--white {
+    color: var(--color-white);
+}
+
+.text--dark {
+    color: var(--color-dark);
+}
+
 .text--grey {
     color: var(--color-grey);
     font-size: 1rem;
-    line-height: 1.5;
-    text-align: justify;
+    line-height: 1.8;
+}
+
+.text--pink {
+    color: var(--color-radiant-pink);
 }
 
 .text--medium {
     font-weight: var(--font-weight-medium);
 }
 
-.title--white {
-    color: var(--color-white);
-    font-weight: 800;
-    font-size: 1.5em;
+.text--bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.text--extra-bold {
+    font-weight: var(--font-weight-bold-extra);;
 }
 
 /* --- NAV & HEADER --- */
@@ -83,12 +108,28 @@ h1 {
 }
 
 /* --- LAYOUT --- */
-.main__title-container {
+.main-content {
+    margin-bottom: 4.5em;
+}
+
+.main-content__title-container {
     background: var(--gradient-orange-pink);
     border-radius: var(--radius-10);
     line-height: 1.5;
-    padding: 1.9em 2em 1.9em 1.75em;
+    padding: 2em;
     margin-bottom: 1em;
+}
+
+.card {
+    background-color: var(--color-white);
+    border-radius: var(--radius-10);
+    margin-top: 3em;
+    padding: 3.5em 2em 2.5em 2em;
+    position: relative;
+}
+
+.card__text {
+    padding: 1.5em 0;
 }
 
 /* --- LOGOS & IMAGES --- */
@@ -99,13 +140,16 @@ h1 {
 
 .hero-img {
     width: 100%;
-    height: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: -25px;
 }
 
 /* --- LINKS & BUTTONS --- */
 .btn--dark,
 .btn--pink-gradient {
-    text-decoration: none;
     color: var(--color-white);
     font-size: 1rem;
 }
@@ -123,4 +167,8 @@ h1 {
     border-radius: var(--radius-31);
     padding: 1.1em 2.5em;
     margin: 1.5em 0;
+}
+
+.card__link {
+    font-size: 1.125em;
 }
