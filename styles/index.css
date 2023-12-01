@@ -1,7 +1,8 @@
 /* --- RESETS --- */
-* {
+*, 
+*::before, 
+*::after {
     box-sizing: border-box;
-    margin: 0;
 }
 
 html,
@@ -112,20 +113,20 @@ a {
     margin-bottom: 4.5em;
 }
 
-.main-content__title-card {
-    background: var(--gradient-orange-pink);
-    border-radius: var(--radius-10);
-    line-height: 1.5;
-    padding: 2em;
-    margin-bottom: 1em;
-}
-
 .card {
     background-color: var(--color-white);
     border-radius: var(--radius-10);
     margin-top: 3em;
     padding: 3.5em 2em 2.5em 2em;
     position: relative;
+}
+
+.card--title {
+    background: var(--gradient-orange-pink);
+    border-radius: var(--radius-10);
+    line-height: 1.5;
+    padding: 2em;
+    margin-bottom: 1em;
 }
 
 .card__text {
@@ -177,6 +178,8 @@ a {
 
 .card__link {
     font-size: 1.125em;
+    position: absolute;
+    bottom: 35px;
 }
 
 /* --- FOOTER --- */
@@ -203,15 +206,26 @@ a {
     }
 
     .hero-img--non-mobile {
-        max-width: 640px;
-        width: 100%;
+        width: 640px;
         display: block;
         position: absolute;
-        right: -280px;
-        bottom: -260px;
+        right: -310px;
+        top: -170px;
     }
 
     .header-container__text {
         max-width: 60%;
+    }
+
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .card {
+        flex: 1 340px;
+        padding: 2em 1.75em 1em 1.75;
     }
 }
