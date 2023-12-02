@@ -192,6 +192,11 @@ a {
 }
 
 @media (min-width: 768px) {
+    header {
+        padding: 1.5em 2em;
+        margin-bottom: 4em;
+    }
+
     .header-container {
         display: flex;
         position: relative;
@@ -199,6 +204,10 @@ a {
 
     .text--grey {
         font-size: 1.125rem;
+    }
+
+    .btn--pink-gradient {
+        margin-top: 0.5em;
     }
 
     .hero-img--mobile {
@@ -210,7 +219,7 @@ a {
         display: block;
         position: absolute;
         right: -310px;
-        top: -170px;
+        top: -160px;
     }
 
     .header-container__text {
@@ -224,8 +233,25 @@ a {
         padding: 1em;
     }
 
+    .card--title {
+        margin-bottom: 0;
+    }
+
+    .card h2 {
+        margin-top: 1.4em;
+        font-size: 1.75rem;
+    }
+
     .card {
         flex: 1 340px;
-        padding: 2em 1.75em 1em 1.75;
+        padding-top: 2em;
+    }
+
+    .card__text {
+        padding-top: 0;
+    }
+
+    .footer {
+        padding: 0.5em 2.5em;
     }
 }
