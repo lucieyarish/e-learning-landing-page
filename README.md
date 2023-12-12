@@ -1,4 +1,4 @@
-<img width="1303" alt="Screenshot 2023-12-12 at 16 49 24" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/0900fc0e-a4cd-40b6-b970-9da37d468bc5"># Skilled: E-Learning Landing Page
+# Skilled: E-Learning Landing Page
 
 This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. Figma design and all assets were provided by Frontend Mentor. The solution was coded by me.
 
@@ -28,15 +28,15 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Showcase Screenshot
-Mobile
+##### Mobile
 <img width="258" alt="Skilled E-Learning Showcase Screenshot of Mobile Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/e4e1ef51-5626-4bb0-982d-47da28dd6da2">
 <img width="257" alt="Skilled E-Learning Showcase Screenshot of Mobile Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/26910375-2dc1-492f-a2ce-40ba762b353a">
 
-Tablet
-<img width="440" alt="Skilled E-Learning Showcase Screenshot of Tablet Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/a5077442-5426-488e-ada1-0c2d7295e2e0">
+##### Tablet
+<img width="394" alt="Skilled E-Learning Showcase Screenshot of Tablet Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/14e36123-5fe5-4dec-b8ed-95094586501e">
 
-Desktop
-<img width="1304" alt="Skilled E-Learning Showcase Screenshot of Desktop Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/971c6456-6841-40fb-9f24-2c3be2fd73e9">
+##### Desktop
+<img width="900" alt="Skilled E-Learning Showcase Screenshot of Desktop Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/971c6456-6841-40fb-9f24-2c3be2fd73e9">
 
 
 ### Links
