@@ -62,6 +62,7 @@ a {
 
 .title--3 {
     font-size: 1.25rem;
+    margin-top: 0.5em;
 }
 
 .text--white {
@@ -123,12 +124,12 @@ a {
     background: var(--gradient-orange-pink);
     border-radius: var(--radius-10);
     line-height: 1.5;
-    padding: 2em;
+    padding: 0.5em 2em;
     margin-bottom: 1em;
 }
 
 .card__text {
-    padding: 1.5em 0;
+    padding: 0.5em 0 1.5em 0;
 }
 
 /* --- LOGOS & IMAGES --- */
