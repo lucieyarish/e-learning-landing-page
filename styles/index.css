@@ -34,8 +34,6 @@ body {
     --radius-10: 10px;
     --radius-28: 28px;
     --radius-31: 31px;
-    /* Spacing */
-    /* --spacing-xs: 1em; */
 }
 
 body {
@@ -147,8 +145,6 @@ a {
 .hero-img--desktop {
     display: none;
 }
-
-
 
 .icon {
     position: absolute;
@@ -280,12 +276,13 @@ a {
     }
 
     main {
-        margin-top: 150px;
+        margin-top: 4em;
     }
 
     .main-content {
         justify-content: center;
         gap: 5em;
+        margin-bottom: 8em;
     }
 
     .title--1 {
@@ -315,6 +312,20 @@ a {
 
     .btn--dark {
         margin-right: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .btn--dark:hover,
+    .btn--dark:active {
+        background: var(--color-grey-blue);
+    }
+
+    .btn--pink-gradient:hover,
+    .btn--pink-gradient:active,
+    .btn--blue-gradient:hover,
+    .btn--blue-gradient:active {
+        opacity: 0.6;
     }
 
     .hero-img--mobile,
@@ -329,6 +340,7 @@ a {
         position: absolute;
         right: -420px;
         top: -200px;
+        z-index: 0;
     }
 
     .card {
@@ -340,9 +352,5 @@ a {
         font-size: 1.3em;
         position: absolute;
         bottom: 45px;
-    }
-
-    .main-content {
-        margin-bottom: 8em;
     }
 }
