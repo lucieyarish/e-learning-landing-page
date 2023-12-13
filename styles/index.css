@@ -194,7 +194,7 @@ a {
 @media (min-width: 768px) {
     header {
         padding: 1.5em 2em;
-        margin-bottom: 4em;
+        margin-bottom: 1em;
     }
 
     .header-container {
@@ -354,5 +354,19 @@ a {
         font-size: 1.3em;
         position: absolute;
         bottom: 45px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+    header {
+        padding-bottom: 0;
+    }
+
+    .header-container {
+        margin-bottom: 0;
+    }
+
+    main {
+        margin-top: 0;
     }
 }
