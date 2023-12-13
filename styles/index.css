@@ -135,7 +135,7 @@ a {
 /* --- LOGOS & IMAGES --- */
 .logo-dark,
 .logo-light {
-    width: 89px;
+    width: 110px;
 }
 
 .hero-img--mobile {
@@ -258,10 +258,12 @@ a {
 }
 
 @media (min-width: 1024px) {
-    main,
-    .header-container,
     .nav {
         margin: 0 8em;
+    }
+
+    .header-container {
+        margin: 0 8em 5em 8em;
     }
 
     .header-container__text {
@@ -282,8 +284,12 @@ a {
 
     .main-content {
         justify-content: center;
-        gap: 5em;
+        gap: 4.5em;
         margin-bottom: 8em;
+    }
+
+    .classes-container {
+        padding: 0 5em;
     }
 
     .title--1 {
@@ -345,8 +351,7 @@ a {
     }
 
     .card {
-        flex: 0 1 25%;
-        min-width: 400px;
+        max-width: 400px;
     }
 
     .card__link {
