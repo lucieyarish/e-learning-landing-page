@@ -230,6 +230,7 @@ a {
     .main-content {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 1em;
         padding: 1em;
     }
