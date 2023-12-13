@@ -36,8 +36,8 @@ Users should be able to:
 <img width="394" alt="Skilled E-Learning Showcase Screenshot of Tablet Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/14e36123-5fe5-4dec-b8ed-95094586501e">
 
 ##### Desktop
-<img width="900" alt="Skilled E-Learning Showcase Screenshot of Desktop Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/971c6456-6841-40fb-9f24-2c3be2fd73e9">
-
+<img width="748" alt="Screenshot 2023-12-13 at 15 51 22" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/93b62d6e-e99f-44a5-aa08-0c5c24711164">
+<img width="748" alt="Screenshot 2023-12-13 at 15 51 38" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/0b541eaa-2372-4185-8b63-bc2cac7b7577">
 
 ### Links
 
