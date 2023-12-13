@@ -283,13 +283,8 @@ a {
     }
 
     .main-content {
-        justify-content: center;
         gap: 4.5em;
-        margin-bottom: 8em;
-    }
-
-    .classes-container {
-        padding: 0 5em;
+        margin: 0 3em 8em 3em;
     }
 
     .title--1 {
