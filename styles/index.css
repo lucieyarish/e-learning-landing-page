@@ -215,6 +215,10 @@ a {
         margin-top: 0.5em;
     }
 
+    .btn--blue-gradient {
+        margin: 1em 0;
+    }
+
     .hero-img--mobile,
     .hero-img--desktop {
         display: none;
@@ -322,6 +326,10 @@ a {
         margin-right: 0;
         position: relative;
         z-index: 1;
+    }
+
+    .btn--blue-gradient {
+        margin-top: 1.2em;
     }
 
     .btn--dark:hover,
