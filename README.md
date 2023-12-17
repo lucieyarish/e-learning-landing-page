@@ -8,7 +8,7 @@ Check out the live version on [Netlify](https://skilled-learning-lucieyarish.net
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Showcase Screenshot](#showcase-screenshot)
+  - [Showcase Screenshots](#showcase-screenshots)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
@@ -27,7 +27,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Showcase Screenshot
+### Showcase Screenshots
 ##### Mobile
 <img width="258" alt="Skilled E-Learning Showcase Screenshot of Mobile Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/e4e1ef51-5626-4bb0-982d-47da28dd6da2">
 <img width="257" alt="Skilled E-Learning Showcase Screenshot of Mobile Version" src="https://github.com/lucieyarish/e-learning-landing-page/assets/79669599/26910375-2dc1-492f-a2ce-40ba762b353a">
@@ -66,7 +66,7 @@ HTML and CSS
 Excited to share that before tackling my next Frontend Mentor project, I'll be working on an upcoming Scrimba Frontend Developer Career Path solo project called Learning Journal. This project aims to enhance my skills in building layouts with CSS grid. It's a thrilling endeavor that involves creating a multi-page website comprising blog posts, an about me page, and a home page. Following that, for my next Frontend Mentor challenge, I'm planning to explore CSS preprocessors like Sass or Less. Additionally, I'll be focusing on refining my CSS class naming logic. Continuous improvement is the name of the game!
 
 ### Time Commitment
-Tracked my progress and completed the project in 5.5 hours. Proof that learning and creating can be efficient and enjoyable!
+Tracked my progress and completed the project in 7 hours, including all final touch ups. Proof that learning and creating can be efficient and enjoyable!
 
 ## Author
 
